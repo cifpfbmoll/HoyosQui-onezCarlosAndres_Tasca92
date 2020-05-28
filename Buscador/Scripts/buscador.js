@@ -20,6 +20,7 @@ function tableTags(tags) {
         function(index, tag) {
             table_tags += "<div> class='badge badge-light'>" + tag + "</div>"
         });
+    return tags;
 }
 
 //funcion que obtiene el valor de tagmode para la url
